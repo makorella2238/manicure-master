@@ -161,6 +161,7 @@ header .btn:hover {
 
 #feedback textarea {
     height: 150px;
+    max-width: 100%;
 }
 
 #feedback button[type="submit"] {
@@ -433,3 +434,132 @@ img {
 }
 
 /*--------------------------------------------------SIDEBAR----------------------------------------*/
+
+/* Общие стили */
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    .service_el {
+        margin-right: 10px;
+    }
+
+    .container {
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    header .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    #services {
+        padding: 5px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #services .service {
+        padding: 10px;
+    }
+
+    #services .service img {
+        width: 150px;
+        height: 150px;
+        margin-top: 5px;
+    }
+
+    #blog {
+        padding: 20px;
+    }
+
+    #blog h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .blog-post h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .blog-post p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #about {
+        padding: 20px;
+    }
+
+    #about h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #about p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #feedback {
+        padding: 20px;
+    }
+
+    #feedback h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #feedback label {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #feedback input[type="text"],
+    #feedback input[type="email"],
+    #feedback textarea {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #feedback textarea {
+        height: 100px;
+    }
+
+    #feedback button[type="submit"] {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    #contact {
+        padding: 20px;
+    }
+
+    #contact h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #contact p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}
