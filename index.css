@@ -42,9 +42,8 @@ header .btn:hover {
 }
 
 .service_el {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
@@ -55,7 +54,6 @@ header .btn:hover {
 }
 
 #services .service {
-    width: 27.9%;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -443,10 +441,7 @@ img {
 @media only screen and (max-width: 600px) {
     .service_el {
         margin-right: 10px;
-    }
-
-    #services .service {
-        width: 100%;
+        grid-template-columns: 1fr; /* Один элемент в колонке */
     }
 
     .container {
@@ -569,4 +564,5 @@ img {
         font-size: 16px;
         margin-bottom: 5px;
     }
+
 }
